@@ -12,7 +12,8 @@ module.exports = function(grunt) {
     "lint",
     "clean",
     "build",
-    "jsdoc"
+    "jsdoc",
+    "nwabap_ui5uploader"
    ]);
 
 };
