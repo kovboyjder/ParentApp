@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 		'nwabap_ui5uploader', {
     options: {
       conn: {
-			server: 'https://localhost:44300',
+			server: 'https://0.0.0.0:44300',
       useStrictSSL: false
       },
       auth: {
