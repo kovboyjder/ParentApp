@@ -19,7 +19,7 @@ module.exports = function(grunt) {
       options: {
         ui5: {
            package: '$TMP',
-           bspcontainer: 'Ztest',
+           bspcontainer: 'Ztest1',
            bspcontainer_text: 'UI5 upload local objects'
         },
         resources: {
