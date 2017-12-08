@@ -13,7 +13,7 @@
   "author": "Jakob",
   "license": "ISC",
   "devDependencies": {
-    "grunt-cli": "^1.2.0",
+    "grunt": "^1.0.1",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-uglify": "^3.2.1",
     "grunt-jsdoc": "^2.1.0",
