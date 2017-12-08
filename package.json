@@ -1,25 +1,25 @@
 {
-  "name": "Test",
+  "name": "emfrequest",
   "version": "1.0.0",
-  "description": "Jenkins Test",
+  "description": "Employment Movement Form",
   "main": "component.js",
-  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kovboyjder/ParentApp.git"
+    "url": "https://git.wfm.health.qld.gov.au:443/myHR/EmployeeMovement.git"
   },
   "author": "Jakob",
   "license": "ISC",
   "devDependencies": {
     "grunt": "^1.0.1",
-     "grunt-sapui5": "^1.3.18-g",
-    "grunt-jsdoc": "^2.1.1",
-    "@sap/grunt-sapui5-bestpractice-build": "^1.3.19",
-        "lodash.mergewith": "^4.6.0"
-
-
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.2.1",
+    "grunt-jsdoc": "^2.1.0",
+    "grunt-nwabap-ui5uploader": "^0.2.0",
+    "grunt-sapui5": "^1.3.19",
+    "grunt-task-loader": "^0.6.0"
   }
 }
